@@ -3,7 +3,6 @@
 ROS Node for miradar12e new firmware.  
 Parameters are available to set via dynamic_reconfigure.  
 CI is done in local jenkins environment.  
-It only supports 224000bps currently.  
 
 ## Acknowledgements
 The original of this ROS node was created by QuibiTech Inc.  
