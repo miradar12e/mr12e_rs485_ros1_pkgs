@@ -1,5 +1,4 @@
 # miradar_node
-[![Build Status](http://localhost:8080/job/miradar_node_ros1/badge/icon)](http://localhost:8080/job/miradar_node_ros1/)
 
 ROS Node for miradar12e.
 Parameters are available to set via dynamic_reconfigure.
