@@ -6,7 +6,7 @@ CI is done in local jenkins environment.
 
 ## Acknowledgements
 The original of this ROS node was created by QuibiTech Inc.  
-The link is as follows.  
+The link is as follow.  
 https://github.com/QibiTechInc/miradar_ros1_pkgs
 
 ## Launch
