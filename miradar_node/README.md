@@ -1,8 +1,8 @@
 # miradar_node
 
-ROS Node for miradar12e.
-Parameters are available to set via dynamic_reconfigure.
-CI is done in local jenkins environment.
+ROS Node for miradar12e.  
+Parameters are available to set via dynamic_reconfigure.  
+CI is done in local jenkins environment.  
 
 ## Tests
 - [x] Lv1 : Library Unit Test : DONE
