@@ -404,9 +404,6 @@ public:
     char* getReceivedBuffer() { return sRxBuf; }
 
     void generatePPI(std::string& receivedBytes) {
-
-        ppiEntries.clear();
-
         if (receivedBytes.find("BEGIN_PPI,1") != -1 ||                                      // ST 2022_0704
             receivedBytes.find("BEGIN_PPI,0") != -1) {
             std::vector<std::string> metadata = split(receivedBytes, ',');
@@ -420,6 +417,7 @@ public:
             if(entrynumbers!=8) {
                 return;
             }
+            ppiEntries.clear();
             for(int j = 0; j < entrynumbers; j++) {
                 bool isNotEmpty = (std::stoi(metadata[4 * j + 0]) |
                                    std::stoi(metadata[4 * j + 1]) |
@@ -489,7 +487,7 @@ public:
             return;
         }
 
-        int size = comm.CommRx(sRxBuf, sizeof(sRxBuf), 0);
+        int size = comm.CommRx(sRxBuf, sizeof(sRxBuf), 10);
         std::string receivedBytes(sRxBuf, size);
         //std::cout << receivedBytes << std::endl;
 

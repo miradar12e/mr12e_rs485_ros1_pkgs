@@ -3,6 +3,11 @@ miradar12eのROSノード。
 センサパラメータはdynamic_reconfigureを用いて設定できる。
 
 
+## Acknowledgements
+このROSノードのオリジナルは、株式会社キビテク様が作成されました。
+リンク先は次の通りです。
+https://github.com/QibiTechInc/miradar_ros1_pkgs
+
 ## Launch
 ```bash
 roslaunch miradar_node miradar_rviz.launch

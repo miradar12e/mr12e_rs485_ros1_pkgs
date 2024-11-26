@@ -1,11 +1,13 @@
 # miradar_node
 
-ROS Node for miradar12e new firmware.  
-Parameters are available to set via dynamic_reconfigure.  
-CI is done in local jenkins environment.  
+
+ROS Node for miradar12e new firmware.
+Parameters are available to set via dynamic_reconfigure.
+CI is done in local jenkins environment.
+
 
 ## Acknowledgements
-The original of this ROS node was created by QuibiTech Inc.  
+The original of this ROS Node was created by Quibitech Inc.  
 The link is as follow.  
 https://github.com/QibiTechInc/miradar_ros1_pkgs
 
